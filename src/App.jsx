@@ -129,11 +129,12 @@ function App() {
                         </button>
                     </div>
 
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', width: '100%', maxWidth: '800px' }}>
+                        <ColorPalette selectedColor={selectedColor} onSelectColor={handleColorSelect} />
+                        <StickerPalette selectedSticker={selectedTool} onSelectSticker={setSelectedTool} />
+                    </div>
+
                     <CanvasEditor ref={canvasRef} imageSrc={imageSrc} selectedColor={selectedColor} selectedTool={selectedTool} />
-
-                    <ColorPalette selectedColor={selectedColor} onSelectColor={handleColorSelect} />
-
-                    <StickerPalette selectedSticker={selectedTool} onSelectSticker={setSelectedTool} />
                 </div>
             )}
         </div>

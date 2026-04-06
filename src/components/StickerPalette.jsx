@@ -15,10 +15,8 @@ const StickerPalette = ({ selectedSticker, onSelectSticker }) => {
             padding: '10px',
             background: '#2a2a2a',
             borderRadius: '8px',
-            marginTop: '10px',
             flexWrap: 'wrap',
-            justifyContent: 'center',
-            borderTop: '1px solid #444'
+            justifyContent: 'center'
         }}>
             {stickers.map((sticker) => (
                 <div

@@ -22,7 +22,6 @@ const ColorPalette = ({ selectedColor, onSelectColor }) => {
             padding: '10px',
             background: '#2a2a2a',
             borderRadius: '8px',
-            marginTop: '10px',
             flexWrap: 'wrap',
             justifyContent: 'center'
         }}>
