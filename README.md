@@ -2,6 +2,12 @@
 
 An interactive, high-end coloring book application built with React and Vite. Upload your favorite coloring pages (images or PDFs) and bring them to life with vibrant colors and fun stickers!
 
+## 📸 Screenshots
+
+![Upload Screen](public/screenshots/upload-screen.png)
+![Editor Screen](public/screenshots/editor-screen.png)
+![Colored Example](public/screenshots/colored-example.png)
+
 ## ✨ Features
 
 - **Multi-format Support**: Upload PNG, JPG, or even **PDF** files directly.
@@ -36,7 +42,7 @@ Start the development server:
 ```bash
 npm run dev
 ```
-Open your browser to the URL provided in the terminal (usually `http://localhost:5173`).
+Open your browser to the URL provided in the terminal (usually `http://localhost:5050`).
 
 ## 🛠️ Built With
 
